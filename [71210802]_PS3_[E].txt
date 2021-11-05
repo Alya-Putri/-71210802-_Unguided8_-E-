@@ -1,0 +1,21 @@
+1,1,2,3,5,8...
+
+Angka ke 1 = 1
+Angka ke 2 = 1
+Angka ke 3 = Angka 1 + Angka 2
+
+1,1,2...
+1+2 = 3, ã 1,1,2,3...
+2+3 = 5, ã 1,1,2,3,5...
+3+5 = 8, ã 1,1,2,3,5,8...
+
+Di definisikan
+
+F(n) = 1,                    jika n = 1
+            1,                   jika n = 1
+            F(n-1)+F(n-2)             jika tidak
+
+Barisan bilangan fibonacci dapat dinyatakan sebagai berikut : Fn ( X¹n - X²n)/sqrt (5) 
+Dengan 
+• Fn adalah bilangan Fibonacci ke-n
+• x¹ dan x² adalah penyelesaian  x²-x-1=0
